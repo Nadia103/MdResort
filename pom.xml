@@ -49,7 +49,7 @@
         <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>31.1-jre</version> <!-- Use the version compatible with your plugin -->
+    <version>30.1.1-jre</version>
 </dependency>
 <dependency>
     <groupId>some.group.id</groupId>
