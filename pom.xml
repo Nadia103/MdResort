@@ -51,6 +51,16 @@
     <artifactId>guava</artifactId>
     <version>31.1-jre</version> <!-- Use the version compatible with your plugin -->
 </dependency>
+<dependency>
+    <groupId>some.group.id</groupId>
+    <artifactId>conflicting-artifact</artifactId>
+    <exclusions>
+        <exclusion>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
 
     </dependencies>
 <dependencyManagement>
